@@ -1,0 +1,49 @@
+{
+  "name": "lips",
+  "version": "1.0.0",
+  "description": "Chat Interfaces",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --progress",
+    "start": "serve build -s -c 1",
+    "prestart": "npm run build",
+    "build": "cross-env NODE_ENV=production && webpack -p > webpack.stats.txt",
+    "test": "eslint {src,test}"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "license": "MIT",
+  "author": "Jason Miller <jason@developit.ca>",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^3.1.3",
+    "eslint": "^3.0.1",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "html-webpack-plugin": "^2.22.0",
+    "offline-plugin": "^4.5.3",
+    "preact-compat": "^3.9.4",
+    "raw-loader": "^0.5.1",
+    "replace-bundle-webpack-plugin": "^1.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "kute.js": "^1.6.0",
+    "preact": "^6.0.0",
+    "preact-router": "^2.0.0",
+    "promise-polyfill": "^6.0.2",
+    "serve": "^2.0.0",
+    "styled-jsx": "^0.1.0",
+    "universal-fetch": "^1.0.0"
+  }
+}

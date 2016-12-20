@@ -1,0 +1,25 @@
+Hash: [1m6d05f0a174b2a9c43ed5[22m
+Version: webpack [1m1.14.0[22m
+Time: [1m6098[22mms
+        [1mAsset[22m       [1mSize[22m  [1mChunks[22m  [1m[22m           [1mChunk Names[22m
+    [1m[32mbundle.js[39m[22m    57.8 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
+[1m[32mbundle.js.map[39m[22m     357 kB       [1m0[22m  [1m[32m[emitted][39m[22m  main
+   [1m[32mindex.html[39m[22m  159 bytes        [1m[22m  [1m[32m[emitted][39m[22m  
+    + 41 hidden modules
+
+[1m[33mWARNING in bundle.js from UglifyJs
+Condition always false [./index.js:13,4]
+Dropping unreachable code [./index.js:13,16]
+Condition always true [../~/preact/dist/preact.js:2,0]
+Condition always true [../~/kute.js/kute.js:6,0]
+Dropping unreachable code [../~/kute.js/kute.js:8,3]
+Dropping unused variable n [../~/kute.js/kute.js:179,17]
+Side effects in initialization of unused variable element [../~/kute.js/kute.js:382,0]
+Dropping unused variable _scroll [../~/kute.js/kute.js:24,0]
+Dropping unused variable getAll [../~/kute.js/kute.js:150,0]
+Dropping unused variable removeAll [../~/kute.js/kute.js:151,0]
+Side effects in initialization of unused variable unit [../~/kute.js/kute.js:175,0]
+Side effects in initialization of unused variable TweenProto [../~/kute.js/kute.js:625,0]
+Side effects in initialization of unused variable ws [../~/kute.js/kute.js:711,0][39m[22m
+Child [1mhtml-webpack-plugin for "index.html"[22m:
+        + 3 hidden modules

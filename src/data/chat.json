@@ -1,0 +1,16 @@
+{
+	"chatData": [
+		{
+			"id": "0",
+			"name": "katopz",
+			"img": "https://avatars0.githubusercontent.com/u/97060?s=32",
+			"msg": "Hey, Do you like Preact?"
+		},
+		{
+			"id": "1",
+			"name": "pignoom",
+			"img": "https://avatars3.githubusercontent.com/u/17824120?s=32",
+			"msg": "Sure thing!"
+		}
+	]
+}
