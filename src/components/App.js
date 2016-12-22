@@ -17,7 +17,7 @@ export default class App extends Component {
 
 	render({}, { chatData }) {
 		return (
-			<div class="home">
+			<div>
 				<dl class="ios7">
 					<style jsx>{`
 * {
