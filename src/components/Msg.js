@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import { h } from 'preact';
 import KUTE from 'kute.js';
 
 const onclick = (e) => {
@@ -9,12 +9,8 @@ const onclick = (e) => {
 	).start();
 };
 
-export default class ChatImage extends Component {
-	render({ id, msg, img }) {
-		return <div>
-			<dd class={id === '0' ? 'to' : 'from'}>
-				<p onclick={onclick}>{msg}</p>
-			</dd><img class={id === '0' ? 'me' : 'you'} src={img} />
-		</div>;
-	}
-}
+export default ({ id, uid, msg, img }) => <div>
+	<dd class={uid === '0' ? 'to' : 'from'}>
+		<p onclick={onclick}>{msg}</p>
+	</dd><img class={uid === '0' ? 'me' : 'you'} src={img} />
+</div>;
